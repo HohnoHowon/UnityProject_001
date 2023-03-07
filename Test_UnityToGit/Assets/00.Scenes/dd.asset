@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00349d6c6b3f7e445b52b0cb170d26e6, type: 3}
+  m_Name: dd
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - index: 1
+      character: nana
+      Hp: 50
+      Mp: 5
+      dex: 2
+    - index: 2
+      character: bibi
+      Hp: 50
+      Mp: 10
+      dex: 9
+    - index: 3
+      character: nunu
+      Hp: 50
+      Mp: 20
+      dex: 11
+    - index: 4
+      character: didi
+      Hp: 50
+      Mp: 30
+      dex: 30
+    - index: 5
+      character: bubu
+      Hp: 50
+      Mp: 40
+      dex: 35
