@@ -20,9 +20,33 @@ public class DialogSystem : MonoBehaviour
     public float typingSpeed = 0.1f;    //해당 시간동안 멈췄다가 글씨가 나타남
     private bool isTypingEffect = false;    //재생중인지 판단 FLAG
 
+    public Entity_Dialogue entity_dialouge;   //XLS로 들어온 데이터
+
     private void Awake()
     {
         SetAllClose();
+        
+        if (dialogsDB)
+        {
+            Array.Clear(dialogs, 0, dialogs.Length);    // 기존 dialogs 지움
+            Array.Resize(ref dialogs, entity_dialouge.sheets[0].list.Count);    // DB 데이터에 있는 만큼 배열 변경
+
+            int ArrayCursor = 0;    // DB에서 위치를 정할때 관례적으로 명명
+
+            foreach (Entity_Dialogue.Param param in entity_dialouge.sheets[0].list) // DB 시트에 있는 모든 데이터를 해당 시트 구조체 형태로 저장
+            {
+                dialogs[ArrayCursor].index = param.index;
+                dialogs[ArrayCursor].speakerUIindex = param.speakerUIindex;
+                dialogs[ArrayCursor].name = param.name;
+                dialogs[ArrayCursor].dialogue = param.dialogue;
+                dialogs[ArrayCursor].characterPath = param.characterPath;
+                dialogs[ArrayCursor].tweenType = param.tweenType;
+                dialogs[ArrayCursor].nextindex = param.nextindex;
+
+                ArrayCursor += 1;
+            }
+        }
+        
     }
 
     private void SetActiveObject(SpeakerUI speaker, bool visible)

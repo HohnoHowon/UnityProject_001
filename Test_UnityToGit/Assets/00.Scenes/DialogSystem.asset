@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa0242bb9b37e24ab78118ebbf4e0bd, type: 3}
+  m_Name: DialogSystem
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - index: 0
+      speakerUIindex: 0
+      name: "\uC774\uB9841"
+      dialogue: hello
+      characterPath: none
+      tweenType: 0
+      nextindex: 0
+    - index: 1
+      speakerUIindex: 0
+      name: "\uC774\uB9842"
+      dialogue: word
+      characterPath: none
+      tweenType: 0
+      nextindex: 1
+    - index: 2
+      speakerUIindex: 0
+      name: "\uC774\uB9843"
+      dialogue: lulu
+      characterPath: none
+      tweenType: 0
+      nextindex: 2
+    - index: 3
+      speakerUIindex: 0
+      name: "\uC774\uB9844"
+      dialogue: lala
+      characterPath: none
+      tweenType: 0
+      nextindex: 3
+    - index: 4
+      speakerUIindex: 0
+      name: "\uC774\uB9845"
+      dialogue: it's timmy
+      characterPath: none
+      tweenType: 0
+      nextindex: 4
+    - index: 5
+      speakerUIindex: 0
+      name: "\uC774\uB9846"
+      dialogue: bear
+      characterPath: none
+      tweenType: 0
+      nextindex: 5
+    - index: 6
+      speakerUIindex: 0
+      name: "\uC774\uB9847"
+      dialogue: loki
+      characterPath: none
+      tweenType: 0
+      nextindex: 6
+    - index: 7
+      speakerUIindex: 0
+      name: "\uC774\uB9848"
+      dialogue: lucky
+      characterPath: none
+      tweenType: 0
+      nextindex: 7
+    - index: 8
+      speakerUIindex: 0
+      name: "\uC774\uB9849"
+      dialogue: robin
+      characterPath: none
+      tweenType: 0
+      nextindex: 8
+    - index: 9
+      speakerUIindex: 0
+      name: "\uC774\uB98410"
+      dialogue: sophy
+      characterPath: none
+      tweenType: 0
+      nextindex: 9
+    - index: 10
+      speakerUIindex: 0
+      name: "\uC774\uB98411"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 10
+    - index: 11
+      speakerUIindex: 0
+      name: "\uC774\uB98412"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 11
+    - index: 12
+      speakerUIindex: 0
+      name: "\uC774\uB98413"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 12
+    - index: 13
+      speakerUIindex: 0
+      name: "\uC774\uB98414"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 13
+    - index: 14
+      speakerUIindex: 0
+      name: "\uC774\uB98415"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 14
+    - index: 15
+      speakerUIindex: 0
+      name: "\uC774\uB98416"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 15
+    - index: 16
+      speakerUIindex: 0
+      name: "\uC774\uB98417"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 16
+    - index: 17
+      speakerUIindex: 0
+      name: "\uC774\uB98418"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 17
+    - index: 18
+      speakerUIindex: 0
+      name: "\uC774\uB98419"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 18
+    - index: 19
+      speakerUIindex: 0
+      name: "\uC774\uB98420"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 19
+    - index: 20
+      speakerUIindex: 0
+      name: "\uC774\uB98421"
+      dialogue: 
+      characterPath: none
+      tweenType: 0
+      nextindex: 20
