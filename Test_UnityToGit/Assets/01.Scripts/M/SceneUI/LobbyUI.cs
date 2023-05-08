@@ -1,3 +1,4 @@
+/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,4 +24,4 @@ public class LobbyUI : MonoBehaviour
 
         Debug.Log(Temp.sceneName + "/" + Temp.sceneIndex + "/" + Temp.sceneData0);
     }
-}
+}*/

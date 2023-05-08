@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,4 +23,4 @@ public class LoginUI : MonoBehaviour
 
         Debug.Log(Temp.sceneName + "/" + Temp.sceneIndex + "/" + Temp.sceneData0);
     }
-}
+}*/
